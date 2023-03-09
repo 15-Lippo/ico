@@ -1,6 +1,6 @@
 {
   "_format": "hh-sol-artifact-1",
-  "contractName": "StknICO",
+  "contractName": "LSP20 ICO",
   "sourceName": "contracts/ICO.sol",
   "abi": [
     {
