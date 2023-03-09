@@ -11,11 +11,11 @@ async function main() {
   console.log("Deploying Lsp20ICO Contract...");
   const StknICOFactory = await ethers.getContractFactory("lsp20ICO");
   const lsp20 ICO = await lsp20ICOFactory.deploy(
-    "0x00f2a05f8327ac26e1994b92dbd4e4813bfa8609",
+    "0x70E546c7a2cA4495cFcbE263a3b6D5ce68B2204C",
     stkn.address
   );
 
-  console.log("Deployed stknICO:", stknICO.address);
+  console.log("Deployed Lsp20ICO:", lsp20ICO.address);
 }
 
 main()
